@@ -1,0 +1,53 @@
+site_name: "How to Open Science: EDM 2024 Tutorial"
+site_url: "https://edm2024-tutorial.howtoopenscience.com"
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: images/unlock-one.svg
+  icon:
+    logo: bootstrap/unlock-one
+
+copyright: Copyright &copy; 2022 - 2024 Aaron Haim
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.snippets
+
+extra_javascript:
+  - js/time.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/creative-commons-by
+      link: https://creativecommons.org/licenses/by/4.0/
+      name: Available under the Creative Commons Attribution 4.0 International License
+    - icon: fontawesome/solid/unlock-keyhole
+      link: https://osf.io/thsgx
+      name: Open Science Framework Project
+    - icon: fontawesome/brands/github
+      link: https://github.com/HowToOpenScience
+      name: GitHub Organization
+    
+
+nav:
+  - < Home: https://howtoopenscience.com
+  - Introduction: index.md
+  - Background: background.md
+  - Agenda: agenda.md
+  - Requirements: requirements.md
+  - Supplemental Materials: supplemental.md
+  - Organizers: organizers.md
+  - Attributions: attr.md
+  - License: https://creativecommons.org/licenses/by/4.0/

@@ -1,0 +1,34 @@
+name: deploy-pages
+
+on:
+  push:
+    branches:
+      - main
+
+# Only run one job for writing to pages branch
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # Execute only for our own repo so as not to be annoying
+    if: github.repository == 'HowToOpenScience/edm2024-tutorial'
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3.1.0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4.3.0
+        with:
+          python-version: 3.9.5
+          architecture: x64
+          cache: 'pip' # cache pip dependencies
+
+      - name: Install pip Requirements
+        run: pip install -r requirements.txt
+
+      - name: Deploy Github Pages
+        run: mkdocs gh-deploy --force
+        working-directory: ./src
