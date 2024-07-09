@@ -7,6 +7,7 @@ The times provided are approximated for the maximum amount of time spent on each
 1. **Open Data and Data Enclaves** - 1 Hour
 1. **Break** - 20 minutes
 1. **Open Materials and Containerization** - 1 Hour
+    1. GitHub: [https://github.com/HowToOpenScience/LevelsOfContainerization](https://github.com/HowToOpenScience/LevelsOfContainerization)
 1. **Wrap Up and Summary** - 10 Minutes
 
 ## Tutorial Organization
