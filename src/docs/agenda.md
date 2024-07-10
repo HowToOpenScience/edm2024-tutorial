@@ -4,10 +4,21 @@ The times provided are approximated for the maximum amount of time spent on each
 
 1. **Introductions** - 10 Minutes
 1. **Intellectual Property (IP) and Licensing** - 20 Minutes
+    1. What is copyright and licenses?
+    1. Licensing Basic Papers / Research Projects
+    1. Licensing Proprietary Programs / Online Services
+    1. Other Unique Circumstances
 1. **Open Data and Data Enclaves** - 1 Hour
+    1. What is Open Data and why is it important?
+    1. On the subject of sharing data
+    1. Privacy Preserving Live Data Sharing / MORF
 1. **Break** - 20 minutes
-1. **Open Materials and Containerization** - 1 Hour
-    1. GitHub: [https://github.com/HowToOpenScience/LevelsOfContainerization](https://github.com/HowToOpenScience/LevelsOfContainerization)
+1. **Open Materials and Containerization** ([GitHub](https://github.com/HowToOpenScience/LevelsOfContainerization)) - 1 Hour
+    1. The Main Takeaway of Sharing Materials
+    1. The Bare Minimum to Share Materials
+    1. Local Environments and Build Tools
+    1. Containers with Docker
+    1. Remote Environments with Dev Containers
 1. **Wrap Up and Summary** - 10 Minutes
 
 ## Tutorial Organization
